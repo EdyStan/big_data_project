@@ -14,6 +14,6 @@ Where:
 
 - **m** means the index of the algorithm used for predictions.
     1. Random Forest Classifier
-    2. [...]
-    3. [...]
-    4. [...]
+    2. Support Vector Classifier (Linear Kernel)
+    3. K Nearest Neighbors
+    4. Naive Bayes
