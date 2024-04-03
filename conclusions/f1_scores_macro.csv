@@ -1,0 +1,2 @@
+PreparationMethod,RandomForestClassifier,LinearSVC,GaussianNB,KNeighborsClassifier
+simple_encoding,0.4109774652935338,0.2332247279541728,0.2332247279541728,0.3626222977387444
