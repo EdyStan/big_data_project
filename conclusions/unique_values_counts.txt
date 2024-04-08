@@ -149,17 +149,17 @@ Name: count, dtype: int64
 
 Unique values and counts for column 'medical_specialty':
 medical_specialty
-?                                49949
-InternalMedicine                 14635
-Emergency/Trauma                  7565
-Family/GeneralPractice            7440
-Cardiology                        5352
-                                 ...  
-SportsMedicine                       1
-Speech                               1
-Perinatology                         1
-Neurophysiology                      1
-Pediatrics-InfectiousDiseases        1
+?                                   49949
+InternalMedicine                    14635
+Emergency/Trauma                     7565
+Family/GeneralPractice               7440
+Cardiology                           5352
+                                    ...  
+Surgery-PlasticwithinHeadandNeck        1
+Psychiatry-Addictive                    1
+Proctology                              1
+Dermatology                             1
+SportsMedicine                          1
 Name: count, Length: 73, dtype: int64
 
 Unique values and counts for column 'num_lab_procedures':
@@ -223,23 +223,23 @@ number_outpatient
 15       20
 16       15
 17        8
-21        7
 20        7
+21        7
 18        5
 22        5
 19        3
-27        3
 24        3
-26        2
-23        2
+27        3
+35        2
+29        2
+36        2
 25        2
 33        2
-35        2
-36        2
-29        2
+26        2
+23        2
 34        1
-39        1
 42        1
+39        1
 28        1
 37        1
 38        1
@@ -263,16 +263,16 @@ number_emergency
 13       12
 12       10
 22        6
-16        5
 18        5
-19        4
+16        5
 20        4
+19        4
 15        3
 14        3
-25        2
 21        2
-28        1
+25        2
 42        1
+28        1
 46        1
 76        1
 37        1
@@ -316,26 +316,26 @@ diag_1
 410    3614
 486    3508
        ... 
-373       1
-314       1
+817       1
 684       1
-217       1
-V51       1
+314       1
+832       1
+133       1
 Name: count, Length: 717, dtype: int64
 
 Unique values and counts for column 'diag_2':
 diag_2
-276     6752
-428     6662
-250     6071
-427     5036
-401     3736
-        ... 
-E918       1
-46         1
-V13        1
-E850       1
-927        1
+276    6752
+428    6662
+250    6071
+427    5036
+401    3736
+       ... 
+977       1
+915       1
+752       1
+5         1
+974       1
 Name: count, Length: 749, dtype: int64
 
 Unique values and counts for column 'diag_3':
@@ -346,11 +346,11 @@ diag_3
 428      4577
 427      3955
         ...  
-657         1
-684         1
-603         1
-E826        1
-971         1
+158         1
+871         1
+972         1
+E883        1
+V22         1
 Name: count, Length: 790, dtype: int64
 
 Unique values and counts for column 'number_diagnoses':
