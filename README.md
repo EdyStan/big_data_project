@@ -12,7 +12,7 @@ The folder `performance_measurements/` contains the actual code of this project.
 
 - [...]
 
-Each of these subfolders contain 5 files. The first file contains the data preprocessing and is run at the beginning of all the other four files. The other 4 files contain one supervised model each, and evaluate it according to the true labels. The supervised models that we used are the following:
+Each of these subfolders contain 6 files. The first file contains the data preprocessing and is run at the beginning of all the other four files. The other 5 files contain one supervised model each, and evaluate it according to the true labels. The supervised models that we used are the following:
 
 - Random Forest Classifier.
 
