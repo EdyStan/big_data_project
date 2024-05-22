@@ -15,9 +15,9 @@ import seaborn as sns
 
 
 # define the constants of the file.
-f1_scores_path = '/home/oana/Documents/master_stuff/1st_year/big_data_project/conclusions/f1_scores_macro.csv'  # the file in which we draw the F1 scores
-accuracies_path = '/home/oana/Documents/master_stuff/1st_year/big_data_project/conclusions/accuracies.csv'  # the file in which we draw the accuracies
-raw_data = pd.read_csv('/home/oana/Documents/master_stuff/1st_year/big_data_project/data/diabetic_data.csv')  # the file from which we extract the data
+f1_scores_path = 'conclusions/f1_scores_macro.csv'  # the file in which we draw the F1 scores
+accuracies_path = 'conclusions/accuracies.csv'  # the file in which we draw the accuracies
+raw_data = pd.read_csv('data/diabetic_data.csv')  # the file from which we extract the data
 
 def write_conclusions(model, f1_score, accuracy):
     """
