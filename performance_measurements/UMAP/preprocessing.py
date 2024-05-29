@@ -150,5 +150,7 @@ raw_X, y = encoded_data.drop(columns=['readmitted_2']), encoded_data['readmitted
 X = apply_umap_projector(raw_X, 3)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
+print(f"Number of features: {X.shape[1]}")
+
 # Select the scoring metric as being the macro F1 score
 scoring_metric = make_scorer(f1_score, average='macro')
