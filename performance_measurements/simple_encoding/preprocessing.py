@@ -121,5 +121,7 @@ scaler = StandardScaler()
 X_train = scaler.fit_transform(X_train)
 X_test = scaler.transform(X_test)
 
+print(f"Number of features: {X.shape[1]}")
+
 # Select the scoring metric as being the macro F1 score
 scoring_metric = make_scorer(f1_score, average='macro')
